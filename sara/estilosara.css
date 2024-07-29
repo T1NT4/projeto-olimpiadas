@@ -41,12 +41,13 @@ header{
     flex-direction: row;
     align-items: center;
     overflow: hidden;
-    aspect-ratio: 10/1;
+    aspect-ratio: 15/1;
+    min-height: 103px;
 }
 header::before{
     margin-right: -100%;
     content: '';
-    width: 100%;
+    min-width: 100vw;
     aspect-ratio: 1/1;
     scale: 1.1;
     background: linear-gradient(217deg, var(--cor-secundaria) 35%, transparent 70.71%),
@@ -56,7 +57,7 @@ header::before{
     animation-timing-function:linear;
 }
 body .logo{
-    width: 100px;
+    width: 75px;
     aspect-ratio: 1/1;
     mask-size: cover !important;
     margin-left:10px
@@ -150,6 +151,7 @@ footer .rodape1 {
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     color: var(--cor-texto);
     font-family: var(--fonte-primaria);
 }
