@@ -60,7 +60,7 @@ body {
     mask: url(./imagens/pentlato-removebg-preview.png)no-repeat;
     mask-size: 200%;
     mask-position: center;
-    width: 300em;
+    width: 125vw;
     margin: auto;
     aspect-ratio: 1/1;
     display: flex;
