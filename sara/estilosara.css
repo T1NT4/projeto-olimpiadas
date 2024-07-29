@@ -196,3 +196,28 @@ footer .rodape1 a {
     font-family: var(--fonte-primaria);
     max-width: 550px;
 }
+
+.paragrafo-hipismo {
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    max-width: 330px;
+    display: flex;
+}
+
+.imagem-objetivo1 {
+    mask-size: 200% !important;
+    mask-position: center !important;
+    margin: 2%;
+    aspect-ratio: 1/1;
+    display: flex;
+    width: 30%;
+}
+
+.imagem-objetivo1::after{
+    content: '';
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 100%;
+}
