@@ -68,7 +68,6 @@ body .logo{
     0%{rotate:0deg}
     100%{rotate:360deg}
 }
-
 /* MENU */
 .menu {
     align-items: center;
