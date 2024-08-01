@@ -286,3 +286,56 @@ div.row {
 figure img{
     height: 100%;
 }
+
+/* ATLETAS */
+.video {
+    padding: 5px;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0px 0px 20px -8px black;
+}
+
+
+.atletas {
+    background: var(--cor-primaria);
+}
+
+.container-atletas {
+    padding: 20px;
+    max-width: 100%;
+    color: var(--cor-texto);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px -8px black;
+    flex-wrap: wrap;
+}
+
+.container-atletas img {
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+}
+
+.container-atletas h4 {
+    text-align: center;
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+}
+
+.titulo-atletas{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    text-align: center;
+    font-size: 17px;
+}
+
+/* CURIOSIDADES */
+.curiosidades {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+}
