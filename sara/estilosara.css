@@ -159,6 +159,12 @@ footer .rodape1 a {
     font-family: var(--fonte-primaria);
     max-width: 650px;
 }
+
+.imagem-evolucao img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
 /* LINHA DO TEMPO */
 
 /* Linha 02 */
