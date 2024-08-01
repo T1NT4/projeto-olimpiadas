@@ -1,105 +1,4 @@
-/* FONTES ESTILIZADAS */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
-:root{
-    /*Fonte utilizada para escrever conteudo da página */
-    --fonte-primaria: 'Source Sans 3', Arial;
-    /*Fonte usada para coisas titulos*/
-    --fonte-secundaria: 'Righteous', Monospace;
-}
-
-/* PALETA DE CORES DO SITE */
-:root{
-    --cor-primaria: #1599D8;
-    --cor-secundaria: #F2AACC;
-    --cor-terciaria: #D8C47B;
-    --cor-branco: #FFFFFD;
-    --cor-texto: black;
-}
-
-/* CORPO DO SITE */
-body {
-    background: var(--cor-branco);
-    color: var(--cor-texto);
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.titulointroducao{
-    color: var(--cor-primaria);
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-    font-size: 20px;
-    padding-top: 25px;
-    letter-spacing: 5px;
-}
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-    aspect-ratio: 10/1;
-}
-header::before{
-    margin-right: -100%;
-    content: '';
-    width: 100%;
-    aspect-ratio: 1/1;
-    scale: 1.1;
-    background: linear-gradient(217deg, var(--cor-secundaria) 35%, transparent 70.71%),
-                linear-gradient(127deg, var(--cor-primaria) 35%, transparent 70.71%),
-                linear-gradient(336deg, var(--cor-terciaria) 90%, transparent 70.71%);
-    animation: rotating 10s infinite;
-    animation-timing-function:linear;
-}
-body .logo{
-    width: 100px;
-    aspect-ratio: 1/1;
-    mask-size: cover !important;
-    margin-left:10px
-}
-.logo ::after{
-    background-color: var(--cor-texto) !important;
-}
-@keyframes rotating {
-    0%{rotate:0deg}
-    100%{rotate:360deg}
-}
-
-/* MENU */
-.menu {
-    align-items: center;
-    text-align: center;
-    position: relative;
-    font-family: var(--fonte-primaria);
-    font-size: 15px;
-    margin: auto;
-}
-
-.menu li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.menu ul {
-    padding: 0;
-    margin: 0;
-    padding: 0px 10px;
-    line-height: 25px;
-}
-
-.menu a {
-    color: var(--cor-texto);
-    text-decoration: none;
-}
-
-ul li a:hover {
-    color: var(--cor-primaria);
-}
+/* IMAGEM INTRODUÇÃO */
 
 .img-tit{
     display: flex;
@@ -107,7 +6,6 @@ ul li a:hover {
     align-items: center;
 }
 
-/* IMAGEM INTRODUÇÃO */
 .imagem{
     display: flex;
     max-width: 900px;

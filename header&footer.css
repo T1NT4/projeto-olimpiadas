@@ -37,6 +37,7 @@ body {
     letter-spacing: 5px;
 }
 header{
+    margin-bottom: 100px;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@ header{
     height: 153px;
     background-color: black;
     transition: height 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 2;
 }
 header.scrolled{
     height: 105px;
@@ -115,15 +117,19 @@ header.scrolled:not(header:has(.menu)) .logo{
     margin: 0;
     padding: 0px 10px;
     line-height: 25px;
+    transition: color 0.25 cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .menu a {
     color: var(--cor-texto);
     text-decoration: none;
+    transition: color 0.25 cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
+header.scrolled .menu a, header.scrolled .menu ul{
+    color: var(--cor-branco);
+}
 ul li a:hover {
-    color: var(--cor-primaria);
+    color: var(--cor-primaria) !important;
 }
 
 .img-tit{
@@ -131,7 +137,9 @@ ul li a:hover {
     flex-direction: column;
     align-items: center;
 }
-
+main{
+    margin-top:175px;
+}
 
 .imagemintroducao {
     mask-size: 200% !important;
@@ -199,12 +207,4 @@ footer .rodape1 li {
 footer .rodape1 a {
     color: var(--cor-texto);
     text-decoration: none;
-}
-
-/* OBJETIVOS */
-.texto1{
-    text-align: center;
-    font-size: 15px;
-    font-family: var(--fonte-primaria);
-    max-width: 550px;
 }
