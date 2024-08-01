@@ -103,13 +103,14 @@ footer .rodape1 a {
     justify-content: space-around;
 }
 
-.paragrafo {
+.paragrafo-0bjetivo {
     flex-direction: column;
     text-align: center;
     font-size: 15px;
     font-family: var(--fonte-primaria);
     max-width: 330px;
     display: flex;
+    margin-left: 150px;
 }
 
 .imagem-objetivo1 {
