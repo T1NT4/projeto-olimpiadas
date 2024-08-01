@@ -60,7 +60,7 @@ header::before{
     scale: 1.1;
     background: linear-gradient(217deg, var(--cor-secundaria) 35%, transparent 70.71%),
                 linear-gradient(127deg, var(--cor-primaria) 35%, transparent 70.71%),
-                linear-gradient(336deg, var(--cor-terciaria) 90%, transparent 70.71%);
+                linear-gradient(336deg, var(--cor-terciaria) 35%, transparent 70.71%);
     animation: rotating 10s infinite;
     animation-timing-function:linear;
     transition: opacity 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -219,14 +219,15 @@ h1{
     font-family:var(--fonte-secundaria);
     color:var(--cor-primaria);
     text-align: center;
+    text-transform:uppercase;
 }
 *{
     font-family: var(--fonte-primaria);
     color:var(--cor-texto)
 }
 main{
-    max-width: 1024px;
-    width: 100%;
+    max-width: 1004px;
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -238,5 +239,5 @@ main{
     width: 30%;
 }
 .pictograma-container p{
-    margin:auto
+    flex-grow: 1;
 }
