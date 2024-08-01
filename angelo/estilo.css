@@ -1,0 +1,12 @@
+.introducao-container{
+    max-width: 800px;
+    margin: auto;
+}
+.introducao-container h1{
+    font-family: var(--fonte-secundaria);
+    color:var(--cor-primaria)
+}
+.introducao{
+    display: flex;
+    font-family: var(--fonte-primaria);
+}
