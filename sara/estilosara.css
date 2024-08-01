@@ -332,3 +332,10 @@ figure img{
     text-align: center;
     font-size: 17px;
 }
+
+/* CURIOSIDADES */
+.curiosidades {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+}
