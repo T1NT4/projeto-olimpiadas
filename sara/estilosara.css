@@ -1,25 +1,26 @@
 /* IMAGEM INTRODUÇÃO */
 
-.img-tit{
+.img-tit {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.imagem{
+.imagem {
     display: flex;
     max-width: 900px;
 }
 
-.textoimagem{
+.textoimagem {
     font-family: var(--fonte-primaria);
     font-size: 1.25rem;
-    text-align:left;
+    text-align: left;
     position: relative;
     margin: auto;
     margin-left: 10px;
     flex-grow: 1;
 }
+
 .imagemintroducao {
     mask-size: 200% !important;
     mask-position: center !important;
@@ -27,11 +28,13 @@
     aspect-ratio: 1/1;
     display: flex;
 }
-.imagemintroducao:not(.logo){
+
+.imagemintroducao:not(.logo) {
     width: 150%;
     min-width: 200px;
 }
-.imagemintroducao::after{
+
+.imagemintroducao::after {
     content: '';
     background-color: var(--cor-primaria);
     width: 100%;
@@ -88,14 +91,19 @@ footer .rodape1 a {
 }
 
 /* OBJETIVOS */
-.texto1{
+.texto1 {
     text-align: center;
     font-size: 15px;
     font-family: var(--fonte-primaria);
     max-width: 550px;
 }
 
-.paragrafo-hipismo {
+.objetivos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragrafo {
     flex-direction: column;
     text-align: center;
     font-size: 15px;
@@ -110,12 +118,13 @@ footer .rodape1 a {
     margin: 2%;
     aspect-ratio: 1/1;
     display: flex;
-    width: 30%;
+    
 }
 
-.imagem-objetivo1::after{
+.imagem-objetivo1::after {
     content: '';
     background-color: var(--cor-primaria);
     width: 100%;
     height: 100%;
+    align-items: center;
 }
