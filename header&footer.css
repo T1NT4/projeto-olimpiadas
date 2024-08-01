@@ -69,10 +69,15 @@ header.scrolled::before{
     opacity: 0;
 }
 body .logo{
-    width: 100px;
+    height: 80%;
+    margin: auto;
     aspect-ratio: 1/1;
     mask-size: cover !important;
     margin-left:10px
+}
+.logo .logo{
+    width: 100% !important;
+    height: 100% !important;
 }
 .logo ::after{
     background-color: var(--cor-texto) !important;
@@ -85,7 +90,8 @@ header:not(header:has(.menu)) .logo{
     margin: auto;
     aspect-ratio: 2.7/1;
     mask-size: 95% 95% !important;
-    width: 375px;
+    width: auto ;
+    min-height: 80%;
     transition: width 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 header.scrolled:not(header:has(.menu)) .logo{
