@@ -6,6 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../header&footer.css">
     <title>TEMPLATE</title>
+    <style>
+        /* Adicionando estilos básicos */
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .imagem-esquerda {
+            flex: 1;
+            max-width: 350px;
+            /* Ajuste o tamanho conforme necessário */
+            margin-right: 20px;
+            /* Espaço entre a imagem e o texto */
+            border-radius: 10px;
+        }
+
+        .texto-principal {
+            flex: 3;
+        }
+
+        .vertical {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,23 +53,34 @@
     </header>
 
     <main class="main">
-        <h1>MARATONA AQUÁTICA </h1>
-        <div class="pictograma-container">
-            <div class="imagemintroducao" style="mask: url(img/maratona_aquatica-removebg.png)"></div>
-            <p>Maratonas aquáticas é o nome de uma modalidade esportiva da natação praticada em águas abertas. Ela pode
-                ser praticada em águas oceânicas (mares), lagos ou rios. O percurso em que o nadador deve nadar,
-                geralmente, é de longa distância. Estes eventos cobrem frequentemente distâncias de 10 quilómetros ou
-                mais.
-                Os nadadores que praticam esta modalidade esportiva devem ter muita resistência física, que é adquirida
-                com treinamento intensivo e conhecimento de técnicas específicas para este tipo de natação.
+        <h1>OBJETIVO</h1>
+        <div class="container vertical">
+            <img src="img/maratona-aquatica (img1).jpg" alt="Maratona Aquática" class="imagem-esquerda">
+            <div class="texto-principal">
+                <div class="pictograma-container">
+                    <br>
+                    <p>
+                        A maratona aquática ocorre em ambientes de águas abertas, como mar, rios e lagos. Os atletas
+                        devem
+                        completar um percurso de 10km, que leva quase duas horas para ser concluído; sua resistência,
+                        esforço
+                        físico e força mental são colocados à prova.
 
-                Esta modalidade esportiva também é conhecida como Natação em águas abertas. </p>
+                        A capacidade de adaptação também é crucial; as marés e correntes mudam rapidamente no mar, e os
+                        atletas
+                        devem considerar isso em suas estratégias. Usar a tática certa para o percurso e as condições é,
+                        portanto, fundamental. Nos últimos 3km, os nadadores começam a fazer seus movimentos para a
+                        linha de
+                        chegada – a forma como administram o esforço torna-se essencial e é o que determina o resultado
+                        final.
+                    </p>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="rodape1">
-
             <div>
                 <ul>
                     <h3>SOBRE NÓS</h3>
