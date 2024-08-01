@@ -1,0 +1,142 @@
+/* IMAGEM INTRODUÇÃO */
+
+.img-tit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    display: flex;
+    max-width: 900px;
+}
+
+.textoimagem {
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    text-align: left;
+    position: relative;
+    margin: auto;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.imagemintroducao {
+    mask-size: 200% !important;
+    mask-position: center !important;
+    margin: auto;
+    aspect-ratio: 1/1;
+    display: flex;
+}
+
+.imagemintroducao:not(.logo) {
+    width: 150%;
+    min-width: 200px;
+}
+
+.imagemintroducao::after {
+    content: '';
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 100%;
+}
+
+/* RODAPÉ: INTRODUÇÃO */
+footer {
+    background: var(--cor-terciaria);
+    width: 100%;
+    margin-top: auto;
+}
+
+footer .rodape1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: var(--cor-texto);
+    font-family: var(--fonte-primaria);
+}
+
+footer .rodape1 ul {
+    text-align: center;
+}
+
+footer .rodape1 h3 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer .rodape1 .redes-sociais img {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.direitos {
+    width: 15px;
+    height: 10px;
+}
+
+footer .rodape1 .paragrafo ul {
+    margin-bottom: 40px;
+}
+
+footer .rodape1 li {
+    list-style: none;
+}
+
+footer .rodape1 a {
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+/* OBJETIVOS */
+.texto1 {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    max-width: 550px;
+}
+
+
+.objetivos {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin: 0 auto;
+    margin-left: 15px;
+}
+
+.paragrafo-0bjetivo {
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    max-width: 330px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.imagem-objetivo1 {
+    mask-size: 200% !important;
+    mask-position: center !important;
+    margin: 2%;
+    aspect-ratio: 1/1;
+    display: flex;
+    margin: 5%;
+    padding: 20px;
+}
+
+.imagem-objetivo1::after {
+    content: '';
+    background-color: var(--cor-primaria);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style: disc;
+}
