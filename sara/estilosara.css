@@ -7,7 +7,6 @@
 }
 
 .imagem {
-    display: flex;
     max-width: 900px;
 }
 
@@ -30,8 +29,8 @@
 }
 
 .imagemintroducao:not(.logo) {
-    width: 150%;
-    min-width: 200px;
+    width: 50%;
+    min-width: 300px;
 }
 
 .imagemintroducao::after {
@@ -103,23 +102,27 @@ footer .rodape1 a {
     justify-content: space-around;
 }
 
-.paragrafo-0bjetivo {
+.objetivosvertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo-objetivo {
     flex-direction: column;
     text-align: center;
     font-size: 15px;
     font-family: var(--fonte-primaria);
     max-width: 330px;
     display: flex;
-    margin-left: 150px;
+    margin: 1em;
 }
 
 .imagem-objetivo1 {
-    mask-size: 200% !important;
+    mask-size: 150% !important;
     mask-position: center !important;
     margin: 2%;
     aspect-ratio: 1/1;
     display: flex;
-    
 }
 
 .imagem-objetivo1::after {
@@ -127,5 +130,4 @@ footer .rodape1 a {
     background-color: var(--cor-primaria);
     width: 100%;
     height: 100%;
-    align-items: center;
 }
