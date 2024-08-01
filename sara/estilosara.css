@@ -1,3 +1,23 @@
+/* FONTES ESTILIZADAS */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+    /*Fonte utilizada para escrever conteudo da página */
+    --fonte-primaria: 'Source Sans 3', Arial;
+    /*Fonte usada para coisas titulos*/
+    --fonte-secundaria: 'Righteous', Monospace;
+}
+
+/* PALETA DE CORES DO SITE */
+:root{
+    --cor-primaria: #1599D8;
+    --cor-secundaria: #F2AACC;
+    --cor-terciaria: #D8C47B;
+    --cor-branco: #FFFFFD;
+    --cor-texto: black;
+}
+
 /* IMAGEM INTRODUÇÃO */
 
 .img-tit {
@@ -130,4 +150,88 @@ footer .rodape1 a {
     background-color: var(--cor-primaria);
     width: 100%;
     height: 100%;
+}
+
+/* EVOLUÇÃO */
+.texto2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    max-width: 650px;
+}
+/* LINHA DO TEMPO */
+
+/* Linha 02 */
+.linha {
+    padding: 35px 10%;
+}
+
+/* Linha 03 */
+.linha {
+    margin-right: calc(10% - 30px);
+}
+
+/* Linha 04 */
+main.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+/* Linha 06 */
+.coluna-00 .content {
+    padding: 0 30px;
+    border-left: solid 2px var(--cor-texto);
+}
+
+/* Linha 07 */
+.coluna-00 .content .box {
+    background: var(--cor-branco);
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px var(--cor-texto);
+    border-radius: 10px;
+}
+
+/* Linha 08 */
+.coluna-00 .content .box:hover {
+    box-shadow: 0px 3px 12px 0px var(--cor-texto); 
+    border: solid 1px transparent;
+}
+
+/* Linha 09 */
+.coluna-00 .content .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: var(--cor-primaria);
+    border: solid 2px var(--cor-primaria);
+}
+
+/* Linha 10 */
+.box h4 {
+    position: relative;
+    color: var(--cor-primaria);
+    font-size: 13px;
+}
+
+/* Linha 11 */
+.box h3 {
+    font-size: 15px;
+    padding: 10px 0 6px;
+    color: var(--cor-primaria);
+}
+
+/* Linha 12 */
+.box p {
+    line-height: 1.2;
+    color: var(--cor-texto);
+    font-size: 12px;
 }
