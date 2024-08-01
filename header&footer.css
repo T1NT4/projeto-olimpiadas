@@ -219,6 +219,7 @@ h1{
     font-family:var(--fonte-secundaria);
     color:var(--cor-primaria);
     text-align: center;
+    text-transform:uppercase;
 }
 *{
     font-family: var(--fonte-primaria);
