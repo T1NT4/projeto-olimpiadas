@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    gap: 1rem;
+}
+.esporte{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: gray;
+    background-size: 100%;
+    background-position: 50% 0%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.esporte:hover{
+    background-size: 110%;
+}
+.esporte::before{
+    content:'';
+    position: absolute;
+    background-color: linear-gradient(white, transparent 10%, transparent 90%, white);
+}
+.esporte-tit{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-branco);
+    font-size: 2rem;
+}
