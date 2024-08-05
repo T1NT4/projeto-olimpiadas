@@ -1,96 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-:root{
 
-    /*Fonte usada para escrever conteudo da página */
-    --fonte-primaria: 'Source Sans 3', Arial;
-    /*Fonte usada para coisas titulos*/
-    --fonte-secundaria: 'Righteous', Monospace;
-}
 
-body {
-    font-family: var(--fonte-primaria);
-    margin: 0;
-    padding: 0;
-    background: linear-gradient( #1599D8, #F2AACC );
-    overflow-y:hidden;
-    min-height: 100vh;
-}
-
-header {
-    background-color: #1b76b7;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header h1{
-    font-family: var(--fonte-secundaria);
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #92c9e2;
+.image-polo{
+    flex: 1;
+    max-width: 450px;
+    /* Ajuste o tamanho conforme necessário */
+    margin-right: 20px;
+    /* Espaço entre a imagem e o texto */
     border-radius: 5px;
-    box-shadow: 0 0 10px #fff4;
-}
 
-.divide{
-    display: flex;
-    justify-content: space-between;
 }
-
-footer {
-    background-color: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea, form button {
-    margin-top: 5px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #7a7ee4;
-}
-
