@@ -5,7 +5,7 @@
     gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .sub-esporte{
     border-radius: 20px;
