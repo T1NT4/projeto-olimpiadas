@@ -1,0 +1,12 @@
+
+
+
+.image-polo{
+    flex: 1;
+    max-width: 450px;
+    /* Ajuste o tamanho conforme necessário */
+    margin-right: 20px;
+    /* Espaço entre a imagem e o texto */
+    border-radius: 5px;
+
+}
