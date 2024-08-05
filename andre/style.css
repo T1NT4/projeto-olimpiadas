@@ -140,3 +140,20 @@ footer .rodape1 a {
 ul {
     list-style: disc;
 }
+.atletas{
+    display: flex;
+    flex-direction: row;
+    max-width: unset !important;
+    align-items: center;
+}
+.atletas img{
+    min-width: 33%;
+    border-radius: 20px;
+    height: auto !important;
+}
+.atletas img:last-child{
+    max-height: 500px;
+}
+.atletas p{
+    flex-grow: 1;
+}
