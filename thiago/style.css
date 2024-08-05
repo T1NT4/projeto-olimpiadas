@@ -5,11 +5,34 @@
     flex-direction: column;
     justify-content: center;
 }
+.figure-container.big-caption{
+    flex-grow: .3;
+    min-width: 200px;
+}
 .figure-container p{
     opacity: 0.75;
     font-style: italic;
     text-align: center;
     margin: 5px 0;
+}
+.pictograma-container:has(.figure-container:last-child) p:not(.figure-container p){
+    text-align: right;
+}
+.figure-container.center figure{
+    border-radius: 100%;
+}
+.pictograma-container:has(.figure-container.center) p:not(.figure-container p){
+    height: fit-content !important;
+    margin:auto;
+    transform: translateY(17.5px);
+}
+.figure-container.big-caption p{
+    font-style: normal;
+    font-weight: 600;
+    opacity: 1;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: var(--cor-secundaria);
 }
 figure{
     min-width: 100%;
