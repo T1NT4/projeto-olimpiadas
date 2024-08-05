@@ -11,6 +11,33 @@
 <body>
     <header>
 
+        <style>
+            /* Adicionando estilos básicos */
+            .container {
+                display: flex;
+                align-items: flex-start;
+            }
+    
+            .imagem-esquerda {
+                flex: 1;
+                max-width: 300px;
+                /* Ajuste o tamanho conforme necessário */
+                margin-right: 20px;
+                /* Espaço entre a imagem e o texto */
+                border-radius: 5px;
+            }
+    
+            .texto-principal {
+                flex: 3;
+            }
+    
+            .vertical {
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 50px;
+            }
+        </style>
+
         <div class="logo">
             <div class="imagemintroducao logo" style="mask: url(../logo.svg)"></div>
         </div>
@@ -22,7 +49,7 @@
                 <li><a href="03-evolucao.html"> EVOLUÇÃO </a></li>•
                 <li><a href="04-regras.html"> REGRAS </a></li>•
                 <li><a href="05-atletas.html"> ATLETAS </a></li>
- 
+
             </ul>
         </div>
     </header>
@@ -35,9 +62,12 @@
 
     <main class="main">
         <h1>PRINCIPAIS REGRAS</h1>
-        <br>
-        <p>
-        <h2>Equipamentos:</h2>os nadadores devem usar trajes de banho aprovados pela WA. É permitido o uso de óculos,
+        <div class="container vertical">
+            <img src="img/semfundo.avif" alt="Maratona Aquática" class="imagem-esquerda">
+            <div class="texto-principal">
+                <div class="pictograma-container">
+                </div>
+            </div> <h2>Equipamentos:</h2>os nadadores devem usar trajes de banho aprovados pela WA. É permitido o uso de óculos,
         toucas
         e roupas isotérmicas de neoprene, item obrigatório caso a água esteja com 18 graus ou menos de temperatura.
 
@@ -109,22 +139,29 @@
         fortalecer o sistema imunológico e melhorar a resistência a doenças.
 
         <h2>Benefícios Mentais:</h2>
-        <h2> •Redução do Estresse e Ansiedade:</h2> A prática de maratonas aquáticas ajuda a liberar endorfinas, que são conhecidas
+        <h2> •Redução do Estresse e Ansiedade:</h2> A prática de maratonas aquáticas ajuda a liberar endorfinas, que são
+        conhecidas
         por melhorar o humor e reduzir o estresse e a ansiedade. A concentração e a meditação associadas ao treinamento
         também desempenham um papel importante.
 
-        <h2> •Aumento da Autoconfiança e Autoestima: </h2>Superar desafios e atingir metas em maratonas aquáticas pode aumentar a
+        <h2> •Aumento da Autoconfiança e Autoestima: </h2>Superar desafios e atingir metas em maratonas aquáticas pode
+        aumentar a
         autoconfiança e a autoestima. A sensação de realização após completar uma competição é poderosa.
 
-        <h2> •Melhoria da Disciplina e Persistência:</h2> O treinamento rigoroso necessário para maratonas aquáticas ensina
+        <h2> •Melhoria da Disciplina e Persistência:</h2> O treinamento rigoroso necessário para maratonas aquáticas
+        ensina
         disciplina e persistência, habilidades que são transferíveis para outras áreas da vida.
 
         <h2> •Sensação de Conexão e Comunidade:</h2> Participar de eventos de maratonas aquáticas pode criar um senso de
         pertencimento e conexão com uma comunidade de pessoas que compartilham interesses semelhantes.
 
-        <h2> •Desenvolvimento da Resiliência Mental:</h2> Enfrentar e superar desafios físicos prolongados fortalece a resiliência
+        <h2> •Desenvolvimento da Resiliência Mental:</h2> Enfrentar e superar desafios físicos prolongados fortalece a
+        resiliência
         mental, ajudando os atletas a lidar melhor com adversidades e dificuldades em outras áreas da vida.
     </main>
+        </div>
+        <p>
+       
 
     <footer>
         <div class="rodape1">
@@ -145,7 +182,7 @@
                 <li><a href="03-evolucao.html"> EVOLUÇÃO </a></li>
                 <li><a href="04-regras.html"> REGRAS </a></li>
                 <li><a href="05-atletas.html"> ATLETAS </a></li>
-              
+
             </ul>
 
             <div>
